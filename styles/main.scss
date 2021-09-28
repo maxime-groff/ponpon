@@ -1,0 +1,43 @@
+// @import "partials/reset";
+
+$primary: #333333;
+$secondary: #827f7e;
+$background: #dfe3ef;
+
+$bg: #252a41;
+$task--done: #36d9d8;
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.background {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+}
+
+.app {
+  background-color: $bg;
+  border-radius: 8px;
+  box-shadow: 0px 20px 50px $secondary;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+// .selection,
+// .project {
+//   background-color: #fff;
+//   height: 100%;
+//   width: 100%;
+// }
+// .selection-title {
+//   color: #fff;
+//   font-size: 30px;
+// }
